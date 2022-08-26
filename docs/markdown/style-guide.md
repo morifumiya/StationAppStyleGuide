@@ -62,23 +62,49 @@ dp値、カラーコード（#6, 8）記載で大丈夫
 | button | ① <img src="../../assets/images/button/confirm.png"> | ② <img src="../../assets/images/button/cancel.png" width="200px" height="30px" > | ③ <img src="../../assets/images/button/print.png" width="200px" height="30px"> | ④ <img src="../../assets/images/button/completion.png" width="200px" height="30px"> |
 | --- | --- | --- | --- | --- |
 | **usage** | [確定]選択のアクションに利用します | [キャンセル]選択のアクションに利用します | [印刷テスト]選択のアクションに利用します | [完了]選択のアクションに利用します |
-| **color code** | #16A6B6 | #FF666666 | #DE85A0 | #616869 |
+| **color code** | #16A6B6 | #FFFFFF | #DE85A0 | #616869 |
 | **icon** | <img class="center border-radius" src="../../assets/images/icon/icon_check_green.png" width="132px" height="132px"> | <img class="center" src="../../assets/images/icon/icon_cancel.png" width="132px" height="132px"> | <img class="center background-color border-radius" src="../../assets/images/icon/option_printer.png" width="132px" height="132px"> | <img class="center border-radius" src="../../assets/images/icon/icon_check.png" width="132px" height="132px"> |
 | **icon name** | icon_check_green | icon_cancel | option_printer | icon_check |
 
 ##### ボタンタップ時
 
-> ボタンをタップしてるかどうかを見分けるため、ボタンタップ時は通常のボタンと色を分ける必要があります。
+ボタンをタップしてるかどうかを見分けるため、ボタンタップ時は通常のボタンと色を分ける必要があります。
 
-① 
+① 確定
 
-② 
+通常時：`@color/paygate_green => #16A6B6`
+<img class="size-auto" src="../../assets/images/button/onOff/.png">
 
-③ `#cd4971`
-<img class="size-auto" src="../../assets/images/button/purint_tap.png">
+タップ時：`@color/paygate_green_dark => #0a7682`
+<img class="size-auto" src="../../assets/images/button/onOff/.png">
 
 
-④ 
+② キャンセル
+
+通常時：`@color/white => #FFFFFF`
+<img class="size-auto" src="../../assets/images/button/onOff/cancel_off.png">
+
+タップ時：`@color/button_white_dark => #40000000`
+<img class="size-auto" src="../../assets/images/button/onOff/cancel_on.png">
+
+
+③ 印刷テスト
+
+通常時：`@color/paygate_manage => #DE85A0`
+<img class="size-auto" src="../../assets/images/button/onOff/print_off.png">
+
+タップ時：`@color/paygate_manage_dark => #cd4971`
+<img class="size-auto" src="../../assets/images/button/onOff/print_on.png">
+
+
+④ 完了
+
+通常時：`@color/paygate_gray => #616869`
+<img class="size-auto" src="../../assets/images/button/onOff/confirm_off.png">
+
+タップ時：`@color/paygate_gray_overlay => #33333333`
+<img class="size-auto" src="../../assets/images/button/onOff/confirm_on.png">
+
 
 #### スペック
 
